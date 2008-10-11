@@ -1,0 +1,16 @@
+﻿<Application x:Class="AvailOn.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    StartupUri="Window1.xaml">
+    <Application.Resources>
+     
+    	<ResourceDictionary>
+    		<ResourceDictionary.MergedDictionaries>
+    			<ResourceDictionary Source="GlassButton.xaml"/>
+    			<ResourceDictionary Source="Availon.xaml"/>
+    			<ResourceDictionary Source="AvailOnMainPage.xaml"/>
+    		</ResourceDictionary.MergedDictionaries>
+    	</ResourceDictionary>
+     
+    </Application.Resources>
+</Application>
