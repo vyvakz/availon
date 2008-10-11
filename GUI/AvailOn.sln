@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AvailOn", "AvailOn\AvailOn.csproj", "{62B81300-7DFF-439B-93DD-258AD4C86833}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FolderTree", "..\..\..\..\..\..\DATA\Product\downloads\FileBackup-src-1.0\FolderTree\FolderTree.csproj", "{DB27281D-225B-44C3-A275-8312C56A36B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackupManager", "..\..\BackupService\BackupManager\BackupManager.csproj", "{5371DFAD-ACE8-4D64-8C88-9E170E7A443E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "..\..\BackupService\Common Components\Common\Common.csproj", "{F9035AAB-BFEA-4316-96C1-96B4B82DC34D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FSBackup", "..\..\BackupService\FSBackup\FSBackup.csproj", "{ECB92DF5-5415-4E0E-8EA3-216E1D1C63E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FSMediaConfig", "..\..\BackupService\FSMedia\FSMediaConfigUI\WpfControlLibrary2\FSMediaConfig.csproj", "{9349B373-01F0-44F8-9CF4-B83E183F5E52}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FSMediaManager", "..\..\BackupService\FSMedia\FSMediaManager\FSMediaManager.csproj", "{37CE712F-4611-48F0-ADAE-71D3A0BBA096}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{62B81300-7DFF-439B-93DD-258AD4C86833}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62B81300-7DFF-439B-93DD-258AD4C86833}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62B81300-7DFF-439B-93DD-258AD4C86833}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62B81300-7DFF-439B-93DD-258AD4C86833}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB27281D-225B-44C3-A275-8312C56A36B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB27281D-225B-44C3-A275-8312C56A36B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB27281D-225B-44C3-A275-8312C56A36B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB27281D-225B-44C3-A275-8312C56A36B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5371DFAD-ACE8-4D64-8C88-9E170E7A443E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5371DFAD-ACE8-4D64-8C88-9E170E7A443E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5371DFAD-ACE8-4D64-8C88-9E170E7A443E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5371DFAD-ACE8-4D64-8C88-9E170E7A443E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9035AAB-BFEA-4316-96C1-96B4B82DC34D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9035AAB-BFEA-4316-96C1-96B4B82DC34D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9035AAB-BFEA-4316-96C1-96B4B82DC34D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9035AAB-BFEA-4316-96C1-96B4B82DC34D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECB92DF5-5415-4E0E-8EA3-216E1D1C63E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECB92DF5-5415-4E0E-8EA3-216E1D1C63E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECB92DF5-5415-4E0E-8EA3-216E1D1C63E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECB92DF5-5415-4E0E-8EA3-216E1D1C63E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9349B373-01F0-44F8-9CF4-B83E183F5E52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9349B373-01F0-44F8-9CF4-B83E183F5E52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9349B373-01F0-44F8-9CF4-B83E183F5E52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9349B373-01F0-44F8-9CF4-B83E183F5E52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37CE712F-4611-48F0-ADAE-71D3A0BBA096}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37CE712F-4611-48F0-ADAE-71D3A0BBA096}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37CE712F-4611-48F0-ADAE-71D3A0BBA096}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37CE712F-4611-48F0-ADAE-71D3A0BBA096}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
